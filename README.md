@@ -1,7 +1,7 @@
 
 # RETRO PIE GAMING CONSOLE
 
-## PROJECT IDEA
+## **Project Idea**
 
 In order to relive our childhood memories, we decided to design a personal-retro gaming console for our final semester project for ECE 4180: Embedded System Design. The motivation behind the design was the (seemingly) ease-of-use that the Raspbeerry Pi Model 3 B+ supports for hosting a nodes.js applications and a respective webserver. In order to build system that was portable and ergonomic for display as well as use, a 3D model was constructed to house the display, the pi, the battery pack, on board speakers, and miscellaneous electronics. 
 
@@ -70,5 +70,17 @@ Executed by:
       input_left_axis = "-0"
       input_state_slot_decrease_axis = "-0"
    
-      
- 
+      ### **Core Packages**
+
+The core components needed for RetroPie to function are:
+
+- **RetroArch:** Frontend for the libretro api, necessary for most emulators to run.
+- **EmulationStation:** Frontend for sorting and launching all of your games.
+- **RetroPie Menu:** Menu in emulationstation for simpler configuration of your system.
+- **Runcommand:** The runcommand launch menu that assists launching your games with proper configurations see related wiki page [HERE](https://github.com/RetroPie/RetroPie-Setup/wiki/runcommand).
+
+### ROM Management
+
+A ROM files are copied from read-only memory chips in famous retro catridge based games through a process known as *dumping*.   In order to copy over our favorite games, a secure socket connection was established in order to transfer popular arcade games using SCP commands to send files from local to a remote system. An example of the command executed is as follows:
+
+    scp PACMAN.SMC pi@192.168.43.227:/home/pi/RetroPie/roms/snes

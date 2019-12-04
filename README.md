@@ -7,6 +7,25 @@ In order to relive our childhood memories, we decided to design a personal-retro
 
 ## **SOFTWARE SETUP AND VERSION CONTROL**
 
+As a disclaimer, our team had to switch from a Raspberry Pi Model 4 to a Raspberry Pi Model 3 B+ because the model 4 had newer versions of npm and node.js installed in /usr/local/bin that took way too long to downgrade and thus caused way too much of a hassle. Many tedious hours were spent trying to uninstall local copies of node and npm, reinstalling using a node version manager very similar to the process utilized during Lab 4. Further troubleshooting proved to be ineffective in ensuring that the dependenices for node were correct and in-line with those used for npm. 
+
+## **Install RetroPie**
+
+After that, we need to install the correct packages for RetroPie setup and run the .sh script:
+
+    sudo apt-get install git lsb-release
+
+Downloading the latest RetroPie setup script:
+
+    cd
+        git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
+
+Executed by:
+
+    cd RetroPie-Setup
+        chmod +x retropie_setup.sh
+        sudo ./retropie_setup.sh
+
 ### Install Virtual Gamepad (Must Be Run As Root!)
     
     su
@@ -51,21 +70,5 @@ In order to relive our childhood memories, we decided to design a personal-retro
       input_left_axis = "-0"
       input_state_slot_decrease_axis = "-0"
    
-## **Install RetroPie**
-
-After that, we install the needed packages for the RetroPie setup script:
-
-    sudo apt-get install git lsb-release
-
-Then we download the latest RetroPie setup script with
-
-    cd
-        git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
-
-The script is executed with
-
-    cd RetroPie-Setup
-        chmod +x retropie_setup.sh
-        sudo ./retropie_setup.sh
       
  

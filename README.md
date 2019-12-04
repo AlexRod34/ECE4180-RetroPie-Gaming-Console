@@ -15,7 +15,7 @@ In order to relive our childhood memories, we decided to design a personal-retro
     npm install
     
     
-    ### Enable Virtual Gamepad on Boot
+### Enable Virtual Gamepad on Boot
     
     sudo npm install pm2 -g
     sudo pm2 start main.js

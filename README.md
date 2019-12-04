@@ -84,3 +84,8 @@ The core components needed for RetroPie to function are:
 A ROM files are copied from read-only memory chips in famous retro catridge based games through a process known as *dumping*.   In order to copy over our favorite games, a secure socket connection was established in order to transfer popular arcade games using SCP commands to send files from local to a remote system. An example of the command executed is as follows:
 
     scp PACMAN.SMC pi@192.168.43.227:/home/pi/RetroPie/roms/snes
+    
+## Hardware & Subassembly 
+
+Below is a list of the parts used for the fabrication and design of our system:
+    

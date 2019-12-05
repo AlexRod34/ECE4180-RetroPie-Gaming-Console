@@ -87,5 +87,12 @@ A ROM files are copied from read-only memory chips in famous retro catridge base
     
 ## Hardware & Subassembly 
 
-Below is a list of the parts used for the fabrication and design of our system:
+Below is a list of the parts required:
+- Adafruit I2S 3W Stereo Speaker Bonnet
+- RPI Model 3 B+
+- Ardafruit HDMI 7" 800x480 Display Backpack - With Touchscreen
+- iOS device with WIFI connection
+
+
+
     

@@ -9,7 +9,7 @@ In order to relive our childhood memories, we decided to design a personal-retro
 
 ## **SOFTWARE SETUP AND VERSION CONTROL**
 
-As a disclaimer, our team had to switch from a Raspberry Pi Model 4 to a Raspberry Pi Model 3 B+ because the model 4 had newer versions of npm and node.js installed in /usr/local/bin that took way too long to downgrade and thus caused way too much of a hassle. Many tedious hours were spent trying to uninstall local copies of node and npm, reinstalling using a node version manager very similar to the process utilized during Lab 4. Further troubleshooting proved to be ineffective in ensuring that the dependenices for node were correct and in-line with those used for npm. 
+As a disclaimer, our team used Raspberry Pi Model 4 which newer versions of npm and node.js installed in /usr/local/bin that required a downgarde. Many tedious hours were spent trying to uninstall local copies of node and npm, reinstalling using a node version manager very similar to the process utilized during Lab 4. Further troubleshooting proved to be effective in ensuring that the dependenices for node were correct and in-line with those used for npm and pm2.
 
 ## **Install RetroPie**
 

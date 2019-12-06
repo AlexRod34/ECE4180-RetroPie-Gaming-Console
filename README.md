@@ -113,7 +113,7 @@ During the course of our project, we decided that we wanted to build an addition
 - **Basic Digital-In Switches**
 - **mBed** for output scaling and bit manipulation for RPI GPIO ports
  
- ## VIDEO
+ ## VIDEO DEMO
  
  https://www.youtube.com/watch?v=HwX_u9vSdPw
 

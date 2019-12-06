@@ -22,11 +22,26 @@ Downloading the latest RetroPie setup script:
     cd
         git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
 
-Executed by:
+Cloning github repository RetroPie specifically for Pi4:
 
-    cd RetroPie-Setup
-        chmod +x retropie_setup.sh
-        sudo ./retropie_setup.sh
+    git clone --single-branch --branch fkms_rpi4 --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
+    cd ./RetroPie-Setup
+    git fetch && git checkout fkms_rpi4
+
+Linking dependencies and sources, manually building binaries:
+
+    sudo ./retropie_packages.sh 833 depends
+    sudo ./retropie_packages.sh 833 sources
+    sudo ./retropie_packages.sh 833 build
+    cd ./tmp/build/sdl2/
+    sudo dpkg -i libsdl2-2.0-0_2.0.10*.deb
+
+Execute:
+
+    cd ../../..
+    sudo ./retropie_setup.sh
+    # go to basic install
+    #setup autoboot to emulation station
 
 ### Install Virtual Gamepad (Must Be Run As Root!)
     

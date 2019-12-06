@@ -54,7 +54,8 @@ The core components needed for RetroPie to function are:
     
     
 ### Enable Virtual Gamepad on Boot
-    
+***Disclaimer*** Node 5.8.0 and NPM v12.13.0 were used for this project. We cannot ensure that more updated versions of node or NPM will be compatible with our system, as this proved to be a problem during software installation.
+
     sudo npm install pm2 -g
     sudo pm2 start main.js
     sudo pm2 startup

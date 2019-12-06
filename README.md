@@ -5,6 +5,8 @@
 
 In order to relive our childhood memories, we decided to design a personal-retro gaming console for our final semester project for ECE 4180: Embedded System Design. The motivation behind the design was the (seemingly) ease-of-use that the Raspbeerry Pi Model 3 B+ supports for hosting a nodes.js applications and a respective webserver. In order to build system that was portable and ergonomic for display as well as use, a 3D model was constructed to house the display, the pi, the battery pack, on board speakers, and miscellaneous electronics. 
 
+![alt text](https://github.com/svia3/ECE4180-RetroPie-Gaming-Console/blob/master/images/IMG_20191206_002154.jpg)
+
 ## **SOFTWARE SETUP AND VERSION CONTROL**
 
 As a disclaimer, our team had to switch from a Raspberry Pi Model 4 to a Raspberry Pi Model 3 B+ because the model 4 had newer versions of npm and node.js installed in /usr/local/bin that took way too long to downgrade and thus caused way too much of a hassle. Many tedious hours were spent trying to uninstall local copies of node and npm, reinstalling using a node version manager very similar to the process utilized during Lab 4. Further troubleshooting proved to be ineffective in ensuring that the dependenices for node were correct and in-line with those used for npm. 
@@ -96,11 +98,9 @@ In order to ensure that our speakers worked, we had to update the driver softwar
 
 Below is a list of the parts required:
 - Adafruit I2S 3W Stereo Speaker Bonnet
-- RPI Model 3 B+
+- RPI Model 4 
 - Ardafruit HDMI 7" 800x480 Display Backpack - With Touchscreen
 - iOS device with WIFI connection
-
-![alt text](https://github.com/svia3/ECE4180-RetroPie-Gaming-Console/blob/master/images/IMG_20191206_002154.jpg)
 
 ## Future Additions & Revisions
 

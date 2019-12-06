@@ -97,9 +97,9 @@ In order to ensure that our speakers worked, we had to update the driver softwar
 ## Hardware Specs
 
 Below is a list of the parts required:
-- Adafruit I2S 3W Stereo Speaker Bonnet
-- RPI Model 4 
-- Ardafruit HDMI 7" 800x480 Display Backpack - With Touchscreen
+- [Adafruit I2S 3W Stereo Speaker Bonnet](https://www.adafruit.com/product/3346?gclid=CjwKCAiAlajvBRB_EiwA4vAqiHQcNQkVz3aT_HM0JRcWzLdMDHznrnivz6ugUeZ69-h08Wrbsb3G6RoCYK0QAvD_BwE)
+- [RPI Model 4](digikey.com/en/product-highlight/r/raspberry-pi/raspberry-pi-4-model-b?utm_adgroup=xGeneral&utm_term=&slid=&gclid=CjwKCAiAlajvBRB_EiwA4vAqiIZCv4XYz5jgaRusfV0OuZFOaj20aDCZJcriM3BMQJ0u7XkVlLBV_BoC7o4QAvD_BwE&utm_campaign=Dynamic+Search&utm_medium=cpc&utm_source=google)
+- [Ardafruit HDMI 7" 800x480 Display Backpack - With Touchscreen](https://www.adafruit.com/product/2407?gclid=CjwKCAiAlajvBRB_EiwA4vAqiEwhR-1Wpg9jJ27-zChQ5AqEUgX4d99syMU-0qYxdd4fccZBwSj3axoCqP4QAvD_BwE)
 - iOS device with WIFI connection
 
 ## Block Diagram

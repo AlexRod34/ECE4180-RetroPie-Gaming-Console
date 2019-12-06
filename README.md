@@ -100,6 +100,8 @@ Below is a list of the parts required:
 - Ardafruit HDMI 7" 800x480 Display Backpack - With Touchscreen
 - iOS device with WIFI connection
 
+
+
 ## Future Additions & Revisions
 
 During the course of our project, we decided that we wanted to build an additional controller using a joystick and pushbuttons for manual controller, in case of server failure of simply low phone battery. The hardware used to design this controller is provided in the list below:

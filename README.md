@@ -100,7 +100,7 @@ Below is a list of the parts required:
 - Ardafruit HDMI 7" 800x480 Display Backpack - With Touchscreen
 - iOS device with WIFI connection
 
-
+![alt text](https://github.com/svia3/ECE4180-RetroPie-Gaming-Console/blob/master/images/IMG_20191206_002154.jpg)
 
 ## Future Additions & Revisions
 

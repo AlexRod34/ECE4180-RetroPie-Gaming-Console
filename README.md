@@ -17,11 +17,6 @@ After that, we need to install the correct packages for RetroPie setup and run t
 
     sudo apt-get install git lsb-release
 
-Downloading the latest RetroPie setup script:
-
-    cd
-        git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
-
 Cloning github repository RetroPie specifically for Pi4:
 
     git clone --single-branch --branch fkms_rpi4 --depth=1 https://github.com/RetroPie/RetroPie-Setup.git

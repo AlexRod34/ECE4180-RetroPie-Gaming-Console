@@ -135,3 +135,7 @@ During the course of our project, we decided that we wanted to build an addition
  
 
 ![alt text](https://github.com/svia3/ECE4180-RetroPie-Gaming-Console/blob/master/images/IMG_20191206_002904.jpg)
+
+Because the RPI does not accept analog inputs, converting to digital inputs on the GPIO ports used to following pin assignments for button inputs and joystick values:
+
+![alt text](https://github.com/svia3/ECE4180-RetroPie-Gaming-Console/blob/master/images/rpGPIO.jpg)

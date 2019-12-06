@@ -37,6 +37,13 @@ Execute:
     sudo ./retropie_setup.sh
     # go to basic install
     #setup autoboot to emulation station
+    
+The core components needed for RetroPie to function are:
+
+- **RetroArch:** Frontend for the libretro api, necessary for most emulators to run.
+- **EmulationStation:** Frontend for sorting and launching all of your games.
+- **RetroPie Menu:** Menu in emulationstation for simpler configuration of your system.
+- **Runcommand:** The runcommand launch menu that assists launching your games with proper configurations see related wiki page [HERE](https://github.com/RetroPie/RetroPie-Setup/wiki/runcommand).
 
 ### Install Virtual Gamepad (Must Be Run As Root!)
     
@@ -84,12 +91,6 @@ Execute:
    
       ### **Core Packages**
 
-The core components needed for RetroPie to function are:
-
-- **RetroArch:** Frontend for the libretro api, necessary for most emulators to run.
-- **EmulationStation:** Frontend for sorting and launching all of your games.
-- **RetroPie Menu:** Menu in emulationstation for simpler configuration of your system.
-- **Runcommand:** The runcommand launch menu that assists launching your games with proper configurations see related wiki page [HERE](https://github.com/RetroPie/RetroPie-Setup/wiki/runcommand).
 
 ### ROM Management
 
@@ -115,6 +116,11 @@ Below is a list of the parts required:
 ## Block Diagram
 
 ![alt text](https://github.com/svia3/ECE4180-RetroPie-Gaming-Console/blob/master/images/4180%2Bblock%2Bdiagram.png)
+ 
+ ## Video Demo
+ 
+ https://www.youtube.com/watch?v=HwX_u9vSdPw
+
 
 ## Future Additions & Revisions
 
@@ -122,9 +128,10 @@ During the course of our project, we decided that we wanted to build an addition
 - **Thumb Slide Joystick-COM-09426-Sparkfun** (This is a joystick very similar to the 'analog' joysticks on PS2 (PlayStation 2) controllers. Directional movements are simply two potentiometers - one for each axis. Pots are ~10k each. This joystick also has a select button that is actuated when the joystick is pressed down.)
 - **Basic Digital-In Switches**
 - **mBed** for output scaling and bit manipulation for RPI GPIO ports
- 
- ## Video Demo
- 
- https://www.youtube.com/watch?v=HwX_u9vSdPw
 
-    
+ ## On-Board Controller
+ 
+ In order to make our gaming system more robust, we decided to design and create a physical on-board controller that uses analong inputs from a pushbutton joystick. We used an mBED as a simple analog to digital converter on a breadboard, feeding forward the two inputs from our joystick, HORZ and VERT as digital outputs UP, DOWN, LEFT, and RIGHT. We also included push buttons for the 'A', 'B', 'Start', and 'Select Buttons.' This design had a few bugs that required further testing and trouble shooting before it would be ready for deployment. RetroPie supports multiple on-board controllers for 2-player games, and we wanted to challenge are selves to take the virtual controller offline in the case that phone battery may be low or there is no internet connection. Below is a picture of the controller:
+ 
+
+![alt text](https://github.com/svia3/ECE4180-RetroPie-Gaming-Console/blob/master/images/IMG_20191206_002904.jpg)

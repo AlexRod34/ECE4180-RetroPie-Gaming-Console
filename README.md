@@ -102,6 +102,10 @@ Below is a list of the parts required:
 - Ardafruit HDMI 7" 800x480 Display Backpack - With Touchscreen
 - iOS device with WIFI connection
 
+## Block Diagram
+
+![alt text](https://github.com/svia3/ECE4180-RetroPie-Gaming-Console/blob/master/images/4180%2Bblock%2Bdiagram.png)
+
 ## Future Additions & Revisions
 
 During the course of our project, we decided that we wanted to build an additional controller using a joystick and pushbuttons for manual controller, in case of server failure of simply low phone battery. The hardware used to design this controller is provided in the list below:

@@ -85,7 +85,14 @@ A ROM files are copied from read-only memory chips in famous retro catridge base
 
     scp PACMAN.SMC pi@192.168.43.227:/home/pi/RetroPie/roms/snes
     
-## Hardware & Subassembly 
+## Ardafruit Speaker Bonnet
+
+In order to ensure that our speakers worked, we had to update the driver software on our board. In order to do this, various github curl requests were performed to ensure that our speakers were set up with the right calibration and right volume. Also, we had to adjust the pin assignment's on the RPI GPIO to ensure that they aligned with the pin assignment's in the speaker drivers config files. The curl request performed, once for installation, and once for testing:
+
+    curl -sS https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/i2samp.sh | bash
+
+    
+## Hardware Specs
 
 Below is a list of the parts required:
 - Adafruit I2S 3W Stereo Speaker Bonnet

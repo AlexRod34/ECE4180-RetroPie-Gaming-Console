@@ -112,6 +112,6 @@ During the course of our project, we decided that we wanted to build an addition
 - **Thumb Slide Joystick-COM-09426-Sparkfun** (This is a joystick very similar to the 'analog' joysticks on PS2 (PlayStation 2) controllers. Directional movements are simply two potentiometers - one for each axis. Pots are ~10k each. This joystick also has a select button that is actuated when the joystick is pressed down.)
 - **Basic Digital-In Switches**
 - **mBed** for output scaling and bit manipulation for RPI GPIO ports
-
+ 
 
     
